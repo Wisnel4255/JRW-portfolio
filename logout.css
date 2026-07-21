@@ -1,0 +1,79 @@
+Ll*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:#07182d;
+}
+
+.logout-container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logout-box{
+    width:420px;
+    background:#101c31;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,.4);
+}
+
+.logout-box h1{
+    color:#3B82F6;
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.logout-box h2{
+    color:white;
+    margin-bottom:15px;
+}
+
+.logout-box p{
+    color:#cbd5e1;
+    margin-bottom:30px;
+    line-height:1.7;
+}
+
+.buttons{
+    display:flex;
+    gap:20px;
+}
+
+.buttons a{
+    flex:1;
+    text-decoration:none;
+    padding:14px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.cancel{
+    background:#374151;
+    color:white;
+}
+
+.cancel:hover{
+    background:#4b5563;
+}
+
+.logout{
+    background:#2563EB;
+    color:white;
+}
+
+.logout:hover{
+    background:#1d4ed8;
+}

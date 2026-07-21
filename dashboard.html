@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JRW Developer Dashboard</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- ================= SIDEBAR ================= -->
+
+        <aside class="sidebar">
+
+            <div class="logo">
+                <h1>JRW</h1>
+                <span>DÉVELOPPEUR</span>
+            </div>
+
+            <div class="profile">
+
+                <div class="profile-image">
+                    <img src="r.png" alt="Jean René Wisnel">
+                    <span class="online"></span>
+                </div>
+
+                <h3>Jean René Wisnel</h3>
+                <p>Développeur</p>
+
+            </div>
+
+            <nav class="navigation">
+
+                <a href="#" class="active">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span>Dashboard</span>
+                </a>
+
+                <a href="#">
+
+                    <i class="fa-solid fa-folder"></i>
+                    <span>Projects</span>
+                </a>
+
+                <a href="#">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>Messages</span>
+                    <b>2</b>
+                </a>
+
+                <a href="#">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Profil</span>
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <span>Analytique</span>
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Paramètres</span>
+                </a>
+
+            </nav>
+
+            <div class="logout">
+                <a href="logout.html">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <span>Déconnecxion</span>
+                </a>
+            </div>
+
+            <div class="pro-card">
+
+                <i class="fa-solid fa-crown"></i>
+
+                <h3>Pro Plan</h3>
+
+                <p>You are using the pro plan</p>
+
+                <button>Upgrade Plan</button>
+
+            </div>
+
+        </aside>
+
+
+        <!-- ================= MAIN CONTENT ================= -->
+
+        <main class="main-content">
+
+            <!-- HEADER -->
+
+            <header class="top-header">
+
+                <button class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <div class="search-box">
+
+                    <input type="text" placeholder="Search something...">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </div>
+
+                <div class="header-right">
+
+                    <div class="notification">
+                        <i class="fa-regular fa-bell"></i>
+                        <span>3</span>
+                    </div>
+
+                    <div class="notification">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>2</span>
+                    </div>
+
+                    <img src="r.png" alt="Profile">
+
+                    <i class="fa-solid fa-chevron-down"></i>
+
+                </div>
+
+            </header>
+
+
+            <!-- WELCOME -->
+
+            <section class="welcome">
+
+                <div>
+
+                    <h1>
+                        Bonjour, Jean René Wisnel
+                        <span>👋</span>
+                    </h1>
+
+                    <p>Welcome back! Here's what's happening today.</p>
+
+                </div>
+
+                <div class="date">
+
+                    <i class="fa-regular fa-calendar"></i>
+
+                    <div>
+                        <strong>18 Juillet 2026</strong>
+                        <span>Samedi, 21:45</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- STATISTICS CARDS -->
+
+            <section class="stats">
+
+                <div class="stat-card blue">
+
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-folder"></i>
+                    </div>
+
+                    <div class="stat-info">
+                        <span>Projets</span>
+                        <h2>12</h2>
+                        <p>↑ <strong>20%</strong> ce mois</p>
+                    </div>
+
+                    <div class="mini-chart">
+                        ╱╲__╱╲
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card green">
+
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+
+                    <div class="stat-info">
+                        <span>Messages</span>
+                        <h2>8</h2>
+                        <p>↑ <strong>12%</strong> ce mois</p>
+                    </div>
+
+                    <div class="mini-chart">
+                        ╱╲_╱╲
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card orange">
+
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+
+                    <div class="stat-info">
+                        <span>Notifications</span>
+                        <h2>15</h2>
+                        <p>↑ <strong>8%</strong> ce mois</p>
+                    </div>
+
+                    <div class="mini-chart">
+                        ╱╲__╱╲
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card purple">
+
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+
+                    <div class="stat-info">
+                        <span>Profil</span>
+                        <h2>90%</h2>
+                        <p>↑ <strong>5%</strong> ce mois</p>
+                    </div>
+
+                    <div class="mini-chart">
+                        ╱╲_╱╲
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- PROJECTS + ACTIVITIES -->
+
+            <section class="content-grid">
+
+                <!-- PROJECTS -->
+
+                <div class="panel projects-panel">
+
+                    <div class="panel-header">
+
+                        <h2>Projets récents</h2>
+
+                        <button>Voir tout</button>
+
+                    </div>
+
+                    <div class="table-header">
+
+                        <span>Projet</span>
+                        <span>Catégorie</span>
+                        <span>Statut</span>
+                        <span>Date</span>
+                        <span></span>
+
+                    </div>
+
+
+                    <div class="project-row">
+
+                        <div class="project-name">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Portfolio Website</span>
+                        </div>
+
+                        <span>Web Design</span>
+
+                        <span class="status done">
+                            Terminé
+                        </span>
+
+                        <span>15 Juil 2026</span>
+
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                    </div>
+
+
+                    <div class="project-row">
+
+                        <div class="project-name">
+                            <i class="fa-solid fa-lock"></i>
+                            <span>Authentification Système</span>
+                        </div>
+
+                        <span>Backend</span>
+
+                        <span class="status done">
+                            Terminé
+                        </span>
+
+                        <span>10 Juil 2026</span>
+
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                    </div>
+
+
+                    <div class="project-row">
+
+                        <div class="project-name">
+                            <i class="fa-solid fa-users"></i>
+                            <span>Dashboard Admin</span>
+                        </div>
+
+                        <span>Web App</span>
+
+                        <span class="status progress">
+                            En cours
+                        </span>
+
+                        <span>18 Juil 2026</span>
+
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                    </div>
+
+
+                    <div class="project-row">
+
+                        <div class="project-name">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span>E-commerce UI</span>
+                        </div>
+
+                        <span>Front End</span>
+
+                        <span class="status pending">
+                            En attente
+                        </span>
+
+                        <span>22 Juil 2026</span>
+
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ACTIVITIES -->
+
+                <div class="panel activities-panel">
+
+                    <div class="panel-header">
+
+                        <h2>Activités récentes</h2>
+
+                    </div>
+
+                    <div class="activity">
+
+                        <i class="fa-solid fa-check"></i>
+
+                        <span>Projet "Portfolio Website" terminé</span>
+
+                        <small>15:30</small>
+
+                    </div>
+
+
+                    <div class="activity">
+
+                        <i class="fa-solid fa-message"></i>
+
+                        <span>Nouveau message de John Doe</span>
+
+                        <small>14:20</small>
+
+                    </div>
+
+
+                    <div class="activity">
+
+                        <i class="fa-solid fa-bell"></i>
+
+                        <span>3 nouvelles notifications</span>
+
+                        <small>13:15</small>
+
+                    </div>
+
+
+                    <div class="activity">
+
+                        <i class="fa-solid fa-cloud-arrow-up"></i>
+
+                        <span>Fichier "design.png" téléchargé</span>
+
+                        <small>11:45</small>
+
+                    </div>
+
+
+                    <div class="activity">
+
+                        <i class="fa-solid fa-check"></i>
+
+                        <span>Mise à jour du profil effectuée</span>
+
+                        <small>09:30</small>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- BOTTOM SECTION -->
+
+            <section class="bottom-grid">
+
+                <!-- GRAPH -->
+
+                <div class="panel chart-panel">
+
+                    <div class="panel-header">
+
+                        <h2>Aperçu des statistiques</h2>
+
+                        <select>
+                            <option>Cette semaine</option>
+                            <option>Ce mois</option>
+                            <option>Cette année</option>
+                        </select>
+
+                    </div>
+
+                    <div class="chart">
+
+                        <div class="y-axis">
+                            <span>100</span>
+                            <span>80</span>
+                            <span>60</span>
+                            <span>40</span>
+                            <span>20</span>
+                            <span>0</span>
+                        </div>
+
+                        <div class="graph-area">
+
+                            <div class="line-chart">
+
+                                <div class="point p1"></div>
+                                <div class="point p2"></div>
+                                <div class="point p3"></div>
+                                <div class="point p4"></div>
+                                <div class="point p5"></div>
+                                <div class="point p6"></div>
+                                <div class="point p7"></div>
+
+                            </div>
+
+                            <div class="days">
+
+                                <span>Lun</span>
+                                <span>Mar</span>
+                                <span>Mer</span>
+                                <span>Jeu</span>
+                                <span>Ven</span>
+                                <span>Sam</span>
+                                <span>Dim</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SKILLS -->
+
+                <div class="panel skills-panel">
+
+                    <h2>Compétences</h2>
+
+
+                    <div class="skill">
+
+                        <div>
+                            <span>HTML</span>
+                            <strong>90%</strong>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width:90%"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div>
+                            <span>CSS</span>
+                            <strong>85%</strong>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width:85%"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div>
+                            <span>JavaScript</span>
+                            <strong>60%</strong>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width:60%"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div>
+                            <span>PHP</span>
+                            <strong>70%</strong>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width:70%"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <footer>
+
+                © 2026 Jean René Wisnel. Tous droits réservés.
+
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>

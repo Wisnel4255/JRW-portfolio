@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#07182d;
+    color:white;
+}
+
+.signup-container{
+    width:1100px;
+    max-width:95%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    background:#101c31;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 20px 50px rgba(0,0,0,.4);
+}
+
+/* LEFT */
+
+.signup-left{
+    background:linear-gradient(135deg,#2563EB,#07182d);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:50px;
+}
+
+.signup-left h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.signup-left h2{
+    font-size:35px;
+    margin-bottom:15px;
+}
+
+.signup-left p{
+    color:#d1d5db;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.signup-left img{
+    width:280px;
+    border-radius:20px;
+}
+
+/* RIGHT */
+
+.signup-right{
+    padding:50px;
+}
+
+.signup-right h2{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:35px;
+}
+
+.signup-right input{
+    width:100%;
+    padding:15px;
+    margin-bottom:18px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    background:#16243d;
+    color:white;
+}
+
+.signup-right input::placeholder{
+    color:#b7bfd4;
+}
+
+.signup-right button{
+    width:100%;
+    padding:15px;
+    background:#2563EB;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.signup-right button:hover{
+    background:#3B82F6;
+}
+
+.separator{
+    text-align:center;
+    margin:25px 0;
+    color:#b7bfd4;
+}
+
+.google-btn{
+    background:transparent !important;
+    border:2px solid #3B82F6 !important;
+}
+
+.google-btn:hover{
+    background:#2563EB !important;
+}
+
+.login-text{
+    text-align:center;
+    margin-top:25px;
+}
+
+.login-text a{
+    color:#3B82F6;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.back-home{
+    display:block;
+    text-align:center;
+    margin-top:20px;
+    color:#b7bfd4;
+    text-decoration:none;
+}
+
+.back-home:hover{
+    color:#3B82F6;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.signup-container{
+    grid-template-columns:1fr;
+}
+
+.signup-left{
+    display:none;
+}
+
+.signup-right{
+    padding:35px;
+}
+
+}
