@@ -45,3 +45,7 @@ Add a screenshot of the website here.
 ## 📄 License
 
 This project is open source and available for learning purposes.
+
+## 📸 Website Preview
+
+<img src="portfolio.png" alt="JRW Portfolio Website Screenshot" width="800">
