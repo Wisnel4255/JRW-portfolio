@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>JRW-Portfolio</title>
 </head>
 <body>
@@ -13,26 +14,30 @@
     <header>
     <nav class="navbar">
 
-        <div class="logo">
-            <h1>JRW</h1>
-            <span>DEVELOPER</span>
-        </div>
+    <div class="logo">
+        <h1>JRW</h1>
+        <span>DEVELOPER</span>
+    </div>
 
-        <ul class="nav-links">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="about.html">À propos</a></li>
-            <li><a href="skills.html">Compétences</a></li>
-            <li><a href="projects.html">Projets</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
 
-        <div class="nav-right">
+    <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="skills.html">Compétences</a></li>
+        <li><a href="projects.html">Projets</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+        <li>
             <a href="login.html" class="login-btn">
-                Connecxion
+                Connexion
             </a>
-        </div>
+        </li>
+    </ul>
 
-    </nav>
+</nav>
 </header>
 
     <!-- HERO SECTION -->
@@ -68,7 +73,7 @@
 </section>
 
 <footer class="footer">
-  <a href="#top" class="back-to-top">↑</a>
+  <a href="#top" class="back-top">↑</a>
 
 
     <div class="footer-container">
