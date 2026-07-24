@@ -1,4 +1,4 @@
-Ll*{
+*{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -27,6 +27,21 @@ body{
     border-radius:20px;
     text-align:center;
     box-shadow:0 20px 40px rgba(0,0,0,.4);
+}
+
+.logout-box{
+    animation:fadeIn .6s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(25px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
 
 .logout-box h1{
@@ -60,6 +75,14 @@ body{
     transition:.3s;
 }
 
+.buttons a{
+    transition:all .3s ease;
+}
+
+.buttons a:hover{
+    transform:translateY(-3px);
+}
+
 .cancel{
     background:#374151;
     color:white;
@@ -76,4 +99,68 @@ body{
 
 .logout:hover{
     background:#1d4ed8;
+}
+
+@media (max-width:768px){
+
+    body{
+        padding:20px;
+    }
+
+    .logout-box{
+        width:100%;
+        max-width:450px;
+        padding:35px;
+    }
+
+    .logout-box h1{
+        font-size:38px;
+    }
+
+    .logout-box h2{
+        font-size:28px;
+    }
+
+    .logout-box p{
+        font-size:16px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    body{
+        padding:15px;
+    }
+
+    .logout-box{
+        width:100%;
+        padding:25px 20px;
+        border-radius:15px;
+    }
+
+    .logout-box h1{
+        font-size:30px;
+    }
+
+    .logout-box h2{
+        font-size:22px;
+    }
+
+    .logout-box p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .buttons{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .buttons a{
+        width:100%;
+        padding:14px;
+        text-align:center;
+    }
+
 }
