@@ -617,6 +617,102 @@ html{
     transform:translateY(-5px);
 }
 
+@media (max-width:768px){
+
+    .about{
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+        padding: 80px 20px;
+    }
+
+    .about-img{
+        width: 100%;
+    }
+
+    .about-circle{
+        width: 320px;
+        height: 320px;
+    }
+
+    .about-img img{
+        width: 280px;
+    }
+
+    .about-content{
+        width: 100%;
+    }
+
+    .about-content h2{
+        font-size: 36px;
+    }
+
+    .about-content p{
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .about-grid{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .about-btn{
+        display: inline-block;
+        width: auto;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .about{
+        padding: 60px 15px;
+        gap: 40px;
+    }
+
+    .subtitle{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .about-content h2{
+        font-size: 28px;
+    }
+
+    .about-content p{
+        font-size: 15px;
+    }
+
+    .about-circle{
+        width: 240px;
+        height: 240px;
+    }
+
+    .about-img img{
+        width: 200px;
+    }
+
+    .box{
+        padding: 18px;
+    }
+
+    .box h3{
+        font-size: 18px;
+    }
+
+    .box p{
+        font-size: 14px;
+    }
+
+    .about-btn{
+        width: 100%;
+        text-align: center;
+        padding: 14px;
+    }
+
+}
+
 
 /* section competences */
 .skills{
