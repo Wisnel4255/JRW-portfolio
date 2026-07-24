@@ -14,3 +14,22 @@ menuToggle.addEventListener("click", () => {
     }
 
 });
+
+const menuBtn = document.querySelector(".menu-btn");
+const sidebar = document.querySelector(".sidebar");
+
+menuBtn.addEventListener("click", () => {
+    sidebar.classList.toggle("active");
+});
+
+<script>
+const backTop = document.querySelector(".back-to-top");
+
+window.addEventListener("scroll", () => {
+    if(window.scrollY > 300){
+        backTop.style.display = "flex";
+    }else{
+        backTop.style.display = "none";
+    }
+});
+</script>

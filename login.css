@@ -179,20 +179,98 @@ body{
     color:#3B82F6;
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE DESIGN */
 
-@media(max-width:900px){
+@media (max-width: 900px){
 
-.login-container{
-    grid-template-columns:1fr;
+    body{
+        padding:20px;
+    }
+
+    .login-container{
+        width:100%;
+        max-width:500px;
+        grid-template-columns:1fr;
+        border-radius:15px;
+    }
+
+    .login-left{
+        padding:35px 25px;
+    }
+
+    .login-left h1{
+        font-size:45px;
+    }
+
+    .login-left h2{
+        font-size:28px;
+    }
+
+    .login-left p{
+        font-size:15px;
+    }
+
+    .login-left img{
+        width:220px;
+    }
+
+    .login-right{
+        padding:35px 25px;
+    }
+
+    .login-right h2{
+        font-size:30px;
+    }
+
 }
 
-.login-left{
-    display:none;
-}
 
-.login-right{
-    padding:35px;
-}
+@media (max-width: 480px){
 
+    body{
+        align-items:flex-start;
+        padding-top:20px;
+    }
+
+    .login-container{
+        max-width:100%;
+    }
+
+    .login-left{
+        padding:30px 20px;
+    }
+
+    .login-left h1{
+        font-size:38px;
+    }
+
+    .login-left h2{
+        font-size:24px;
+    }
+
+    .login-left img{
+        width:180px;
+    }
+
+    .login-right{
+        padding:25px 20px;
+    }
+
+    .login-right h2{
+        font-size:26px;
+    }
+
+    .remember-me{
+        margin:15px 0;
+        bottom:0;
+    }
+
+    .remember-me label,
+    .remember-me a{
+        font-size:13px;
+    }
+
+    .login-right button{
+        font-size:1rem;
+    }
 }
